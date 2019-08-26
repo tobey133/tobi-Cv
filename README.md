@@ -1,2 +1,1 @@
-# tobi-Cv
-my cv written in only html
+https://twitter.com/Tobi_Aina/status/1166071041967513600
