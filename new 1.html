@@ -1,0 +1,38 @@
+
+<form action="/action_page.php" 
+onsubmit="returnvalidateform()"
+method="post">
+<p>
+CONTACT FORM  <br> </p>
+
+Your name : <br>
+<input type="text" name="fname" placeholder="Name"minlength="4"required
+name="Yourname"> </br>
+
+Email: <br>
+<input type="text" name="femail" 
+name="Yourname">
+ </br>
+
+Title: <br>
+<input type="radio" name="title"
+value="Mr" checked> Mr<br>
+<input type="radio" name="title"
+value="Mrs" checked> Mrs<br>
+<input type="radio" name="title"
+value="Others" checked> Others<br>
+</br>
+
+<div class="row">
+ Your message:</label></br>
+ Subject: <br>
+ <input type="text" name="fname" 
+ name=Yourname"> </br>
+ 
+<textarea id="message" class="input" placeholder="message"minlength="20"required name="message" rows="7" cols="30"></textarea>   </br>
+<span id="message_validation" class="error_message"></span>
+</div>
+
+<input type="submit"
+value="submit">
+</form>
